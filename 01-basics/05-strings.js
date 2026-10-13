@@ -18,7 +18,7 @@ const gameNmae = new String("Sanghani-nil-hii");
 const newString = gameNmae.substring(0, 3);
 console.log(newString);
 
-const anotherString = gameNmae.slice(3, 6);
+const anotherString = gameNmae.slice(-6);
 console.log(anotherString);
 
 const newStringOne = "    Nil    ";
