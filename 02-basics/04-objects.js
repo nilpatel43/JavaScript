@@ -65,3 +65,37 @@ const user = [
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 // console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "nil"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+
+
+//   AIP in JSON formet
+
+// {
+//     "name": "nil",
+//     "coursename", "js in hindi",
+//     "price": "free"
+// }
+
+
+//  API (JSON) in Array formet
+
+// [
+//     { },
+//     { },
+//     { },
+// ]
