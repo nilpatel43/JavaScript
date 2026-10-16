@@ -25,15 +25,26 @@ const user = {
 // chai()
 
 
-
 // const chai = function() {
 //     let username = "nil"
 //     console.log(this.username);  
 // }
 
-const chai = () => {
-    let username = "nil"
-    console.log(this.username);  
-}
+// const chai = () => {
+//     let username = "nil"
+//     console.log(this.username);  
+// }
+// chai()
 
-chai()
+
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+// }
+
+// const addTwo = (num1, num2) => num1 + num2
+
+// const addTwo = (num1, num2) => ( num1 + num2 )
+
+const addTwo = (num1, num2) => ( {username: "nil"} )
+
+console.log(addTwo(3, 5));
